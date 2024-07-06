@@ -25,7 +25,7 @@ Each step in this project is designed to thoroughly investigate the dataset and 
 ![Quality of Sleep by Gender](assets/eda2.PNG)
 * **Note:** This box plot shows that males (coded as 0) generally report higher sleep quality compared to females (coded as 1).
 
-![Sleep Duration by Gender](assets/eda.PNG)
+![Sleep Duration by Gender](assets/eda1.PNG)
 * **Note:** This box plot indicates that males (coded as 0) tend to have a longer sleep duration compared to females (coded as 1).
 
 ![Correlation Heatmap](assets/correlation_heatmap.png)
