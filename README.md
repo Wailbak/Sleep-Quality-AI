@@ -22,10 +22,10 @@ Each step in this project is designed to thoroughly investigate the dataset and 
 ### 2. Exploratory Data Analysis (EDA)
 * **Feature Analysis:** Analyzing the distribution and impact of various features on sleep quality.
 
-![Quality of Sleep by Gender](assets/eda2.PNG)
+![Quality of Sleep by Gender](assets/eda2.png)
 * **Note:** This box plot shows that males (coded as 0) generally report higher sleep quality compared to females (coded as 1).
 
-![Sleep Duration by Gender](assets/eda1.PNG)
+![Sleep Duration by Gender](assets/eda1.png)
 * **Note:** This box plot indicates that males (coded as 0) tend to have a longer sleep duration compared to females (coded as 1).
 
 ![Correlation Heatmap](assets/correlation_heatmap.png)
