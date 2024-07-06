@@ -30,6 +30,12 @@ Each step in this project is designed to thoroughly investigate the dataset and 
 
 ![Correlation Heatmap](assets/correlation_heatmap.png)
 * **Note:** This heatmap illustrates the correlation between various features and sleep quality, highlighting significant relationships.
+### ***Key Insights***
+
+**Strong Positive Correlations:**
+
+* **Sleep Duration and Quality of Sleep (0.88):** Indicates that higher sleep duration is strongly associated with better quality of sleep.
+* **Physical Activity Level and Daily Steps (0.77):** Shows that higher physical activity levels correspond to more daily steps.
 
 ### 3. Machine Learning Model
 * **Data Splitting:** Dividing the dataset into training and testing sets.
@@ -74,18 +80,10 @@ ___
 - **Feature Analysis:** Identified significant features affecting sleep quality.
 - **Feature Correlation:** The table identified significant correlations between certain features and sleep quality.
 
-### Feature Importance
-![Feature Importance](assets/feature_importance.png)
-The plot above shows the relative importance of various features in predicting sleep quality. Factors like Sleep Duration, Stress Level, and Physical Activity Level are among the most influential.
 
 ### Machine Learning Model
 - **Training and Testing:** The RandomForestClassifier model showed promising results in predicting sleep quality.
 - **Performance Metrics:** The model achieved high accuracy, precision, recall, and F1-score, indicating robust performance.
-
-### Residual Analysis
-Residual analysis is used to check the differences between observed and predicted values. It helps to diagnose the fit of the model.
-![Residual Analysis](assets/residual_analysis.png)
-The plot above shows the residuals for the training and test sets. The residuals are randomly distributed around zero, indicating a good fit.
 
 ## 🏁 __Conclusion__
 The analysis and model development indicate that the dataset can be effectively used to predict sleep quality. The RandomForestClassifier model demonstrates reliable performance, making it a valuable tool for predicting sleep quality based on various factors.
