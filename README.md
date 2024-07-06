@@ -49,26 +49,6 @@ Each step in this project is designed to thoroughly investigate the dataset and 
 | Recall             | 0.95           | 0.93           |
 | F1-Score           | 0.94           | 0.92           |
 
-### 4. Prediction
-* **User Inputs:** Collecting and validating user inputs for prediction.
-  
-_e.g._
-
-| Features            | Values     |
-|---------------------|------------|
-| Age                 | 30         |
-| Gender              | Male       |
-| Occupation          | Engineer   |
-| Sleep Duration      | 7.0        |
-| Physical Activity   | 50         |
-| Stress Level        | 5          |
-| BMI Category        | Normal     |
-| Heart Rate          | 70         |
-| Daily Steps         | 5000       |
-| Sleep Disorder      | None       |
-
-**Prediction: High Quality Sleep**
-
 ___
 
 ## 💡 ___Key Insights___
