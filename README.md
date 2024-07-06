@@ -33,14 +33,15 @@ Each step in this project is designed to thoroughly investigate the dataset and 
 
 ### 3. Machine Learning Model
 * **Data Splitting:** Dividing the dataset into training and testing sets.
-* **Model Training:** Training a Ridge Regression model to predict sleep quality.
-* **Model Evaluation:** Assessing the model's performance using accuracy, mean absolute error (MAE), mean squared error (MSE), and R-squared score (R²).
+* **Model Training:** Training a RandomForestClassifier model to predict sleep quality.
+* **Model Evaluation:** Assessing the model's performance using accuracy, precision, recall, and F1-score.
 
 | Metric             | Training Set   | Testing Set    |
 |--------------------|----------------|----------------|
-| Mean Absolute Error (MAE)| 0.1026    | 0.1094         |
-| Mean Squared Error (MSE) | 0.0293    | 0.0347         |
-| R-squared (R²)     | 0.9790         | 0.9770         |
+| Accuracy           | 0.95           | 0.93           |
+| Precision          | 0.94           | 0.92           |
+| Recall             | 0.95           | 0.93           |
+| F1-Score           | 0.94           | 0.92           |
 
 ### 4. Prediction
 * **User Inputs:** Collecting and validating user inputs for prediction.
@@ -75,11 +76,11 @@ ___
 
 ### Feature Importance
 ![Feature Importance](assets/feature_importance.png)
-The plot above shows the relative importance of various features in predicting sleep quality. Principal Component 1 (PC1) and interaction terms like Gender * BMI Category are among the most influential.
+The plot above shows the relative importance of various features in predicting sleep quality. Factors like Sleep Duration, Stress Level, and Physical Activity Level are among the most influential.
 
 ### Machine Learning Model
-- **Training and Testing:** The Ridge Regression model showed promising results in predicting sleep quality.
-- **Performance Metrics:** The model achieved high R² score, low mean absolute error, and low mean squared error, indicating robust performance.
+- **Training and Testing:** The RandomForestClassifier model showed promising results in predicting sleep quality.
+- **Performance Metrics:** The model achieved high accuracy, precision, recall, and F1-score, indicating robust performance.
 
 ### Residual Analysis
 Residual analysis is used to check the differences between observed and predicted values. It helps to diagnose the fit of the model.
@@ -87,14 +88,14 @@ Residual analysis is used to check the differences between observed and predicte
 The plot above shows the residuals for the training and test sets. The residuals are randomly distributed around zero, indicating a good fit.
 
 ## 🏁 __Conclusion__
-The analysis and model development indicate that the dataset can be effectively used to predict sleep quality. The Ridge Regression model demonstrates reliable performance, making it a valuable tool for predicting sleep quality based on various factors.
+The analysis and model development indicate that the dataset can be effectively used to predict sleep quality. The RandomForestClassifier model demonstrates reliable performance, making it a valuable tool for predicting sleep quality based on various factors.
 
 ___
 # Summary
 This project has enhanced my skills in data preprocessing, exploratory data analysis, and machine learning model development to address the critical issue of sleep quality prediction:
 
 * __🔍 Data Exploration:__ Detailed analysis of factors affecting sleep quality.
-* __🤖 Machine Learning:__ Developed a regression model that accurately predicts sleep quality.
+* __🤖 Machine Learning:__ Developed a classification model that accurately predicts sleep quality.
 * __📊 Statistical Validation:__ Employed rigorous metrics to validate the model's performance, ensuring reliable predictions.
 
 Leveraging Python for data processing and analysis, and visualization tools like Streamlit, this project provides a comprehensive solution for predicting sleep quality. 🛌
